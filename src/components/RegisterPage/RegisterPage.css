@@ -1,0 +1,53 @@
+.register-page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.register-header{
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.register-form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.register-input-div{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.register-form-input{
+	padding: 10px;
+	margin: 10px;
+}
+
+.register-form-submit{
+	padding: 13px;
+	border: none;
+	background-color: green;
+	color: white;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin:  5px;
+}
+
+.cancel-button{
+	padding: 13px;
+	border: none;
+	background-color: blue;
+	color: white;
+	border: 1px solid black;
+	border-radius: 2px;
+	margin:  5px;
+}
